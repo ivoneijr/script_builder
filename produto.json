@@ -1,0 +1,1346 @@
+{
+  "name": "zw14ppro",
+  "keys": [
+    "codproduto"
+  ],
+  "indexes": [
+    [
+      "codproduto"
+    ],
+    [
+      "classe",
+      "tipoclasse",
+      "ordemclasse"
+    ]
+  ],
+  "columns": [
+    {
+      "name": "largura",
+      "type": "decimal",
+      "length": 9,
+      "precision": 7,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "profundidade",
+      "type": "decimal",
+      "length": 9,
+      "precision": 7,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "altura",
+      "type": "decimal",
+      "length": 9,
+      "precision": 7,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "unidadedimensao",
+      "type": "char",
+      "length": 50,
+      "precision": 50,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codproduto",
+      "type": "char",
+      "length": 12,
+      "precision": 12,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "descricao1",
+      "type": "char",
+      "length": 85,
+      "precision": 85,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "descricao2",
+      "type": "char",
+      "length": 50,
+      "precision": 50,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "descricao4",
+      "type": "char",
+      "length": 85,
+      "precision": 85,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "classe",
+      "type": "char",
+      "length": 30,
+      "precision": 30,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "tipoclasse",
+      "type": "char",
+      "length": 1,
+      "precision": 1,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "ordemclasse",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codigoalternativo",
+      "type": "char",
+      "length": 30,
+      "precision": 30,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codbarras",
+      "type": "char",
+      "length": 20,
+      "precision": 20,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codmarca",
+      "type": "decimal",
+      "length": 7,
+      "precision": 5,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codauxiliar1",
+      "type": "char",
+      "length": 20,
+      "precision": 20,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codauxiliar2",
+      "type": "char",
+      "length": 20,
+      "precision": 20,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codentrelacionada1",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "nomeentrelacionada1",
+      "type": "char",
+      "length": 50,
+      "precision": 50,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codentrelacionada2",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "nomeentrelacionada2",
+      "type": "char",
+      "length": 50,
+      "precision": 50,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "empromocao",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "condicoes",
+      "type": "char",
+      "length": 30,
+      "precision": 30,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "unidade",
+      "type": "char",
+      "length": 10,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "unidadealt",
+      "type": "char",
+      "length": 20,
+      "precision": 20,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "conversaounidade",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 8,
+      "nullable": false
+    },
+    {
+      "name": "clastrib",
+      "type": "char",
+      "length": 3,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "clasfiscal",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "basereduzida",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "aliqicms",
+      "type": "decimal",
+      "length": 5,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "aliqipi",
+      "type": "decimal",
+      "length": 5,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "percentualbaseicms",
+      "type": "decimal",
+      "length": 7,
+      "precision": 5,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "pesobruto",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "pesoliquido",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "quantidade1",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "quantidade2",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "quantidade3",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "saldoestoque",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "estoquemin",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "precocusto1",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "precocusto2",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "precocustomedio",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "precovenda1",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "precovenda2",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "precovenda3",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "precovenda4",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "valoraux",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "precoultimavenda",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "dataultimavenda",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "precopenultimavenda",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "datapenultimavenda",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "precoultimacompra",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "dataultimacompra",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "precopenultimacompra",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "datapenultimacompra",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "dataultimaalteracaopreco",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codmoeda",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "complemento",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "aplicacao",
+      "type": "char",
+      "length": 150,
+      "precision": 150,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "localizacao",
+      "type": "char",
+      "length": 20,
+      "precision": 20,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "situacao",
+      "type": "char",
+      "length": 1,
+      "precision": 1,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "datacadastro",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "info1",
+      "type": "char",
+      "length": 20,
+      "precision": 20,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "info2",
+      "type": "char",
+      "length": 20,
+      "precision": 20,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "tag",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "editavel",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "dataultimaatualizacao",
+      "type": "date",
+      "length": 6,
+      "precision": 10,
+      "scale": 0,
+      "nullable": true
+    },
+    {
+      "name": "horaultimaatualizacao",
+      "type": "time",
+      "length": 6,
+      "precision": 8,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "botaocadeadoaplicacao",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "versaoatual",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "versaofechada",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codtipoproduto",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "novidade",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "datanovidade",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codfornecedorpenultimacompra",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codfornecedorultimacompra",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "pesoauxiliar",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "nomeincluidor",
+      "type": "char",
+      "length": 60,
+      "precision": 60,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "nomealterador",
+      "type": "char",
+      "length": 60,
+      "precision": 60,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "tipoentpenultimavenda",
+      "type": "char",
+      "length": 1,
+      "precision": 1,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codentpenultimavenda",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "tipoentultimavenda",
+      "type": "char",
+      "length": 1,
+      "precision": 1,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codentultimavenda",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "quantidadepenultimacompra",
+      "type": "decimal",
+      "length": 23,
+      "precision": 21,
+      "scale": 10,
+      "nullable": false
+    },
+    {
+      "name": "quantidadeultimacompra",
+      "type": "decimal",
+      "length": 23,
+      "precision": 21,
+      "scale": 10,
+      "nullable": false
+    },
+    {
+      "name": "quantidadepenultimavenda",
+      "type": "decimal",
+      "length": 23,
+      "precision": 21,
+      "scale": 10,
+      "nullable": false
+    },
+    {
+      "name": "quantidadeultimavenda",
+      "type": "decimal",
+      "length": 23,
+      "precision": 21,
+      "scale": 10,
+      "nullable": false
+    },
+    {
+      "name": "codtipoitem",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "margemlucropv1",
+      "type": "decimal",
+      "length": 13,
+      "precision": 11,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "margemlucropv2",
+      "type": "decimal",
+      "length": 13,
+      "precision": 11,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "margemlucropv3",
+      "type": "decimal",
+      "length": 13,
+      "precision": 11,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "margemlucropv4",
+      "type": "decimal",
+      "length": 13,
+      "precision": 11,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "comissaopv1",
+      "type": "decimal",
+      "length": 7,
+      "precision": 5,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "comissaopv2",
+      "type": "decimal",
+      "length": 7,
+      "precision": 5,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "comissaopv3",
+      "type": "decimal",
+      "length": 7,
+      "precision": 5,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "comissaopv4",
+      "type": "decimal",
+      "length": 7,
+      "precision": 5,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "inclusaoreqmaterial",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "usanrserie",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "estoqueideal",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "flag1",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "flag2",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "substituicaotributaria",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "piscofins",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "garantia_spin_dias",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "garantia_drop_tempo",
+      "type": "char",
+      "length": 5,
+      "precision": 5,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "cst_ipi",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "tipocalculo_ipi",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "classeenq_ipi",
+      "type": "char",
+      "length": 60,
+      "precision": 60,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codenquadramento_ipi",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codselocontrole_ipi",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "qtdselo_ipi",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "aliquotaperc_ipi",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "cst_pis",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "tipocalculo_pis",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "aliquota_pis",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "aliqoutavalor_pis",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "tipocalculost_pis",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "aliquotast_pis",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "aliquotavalorst_pis",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "cst_cofins",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "tipocalculo_cofins",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "aliquota_cofins",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "aliquotavalor_cofins",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "tipocalculost_cofins",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "aliquotast_cofins",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "aliquotavalorst_cofins",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "aliquota_issqn",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "horaultimaatualizacaopreco",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "usuarioultimaatualizacaopreco",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "tipoorigemultatualizacaopreco",
+      "type": "char",
+      "length": 3,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codorigemultimaatualizacaopreco",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "pc1anterior",
+      "type": "decimal",
+      "length": 19,
+      "precision": 17,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "pc2anterior",
+      "type": "decimal",
+      "length": 19,
+      "precision": 17,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "pmanterior",
+      "type": "decimal",
+      "length": 19,
+      "precision": 17,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "pv1anterior",
+      "type": "decimal",
+      "length": 19,
+      "precision": 17,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "pv2anterior",
+      "type": "decimal",
+      "length": 19,
+      "precision": 17,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "pv3anterior",
+      "type": "decimal",
+      "length": 19,
+      "precision": 17,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "pv4anterior",
+      "type": "decimal",
+      "length": 19,
+      "precision": 17,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "gramatura",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "tiposubstrato",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "tipotinta",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "durabilidade",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "eancomercial",
+      "type": "char",
+      "length": 14,
+      "precision": 14,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "eantributavel",
+      "type": "char",
+      "length": 14,
+      "precision": 14,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codigotipoorcamentografico",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "volume",
+      "type": "decimal",
+      "length": 17,
+      "precision": 15,
+      "scale": 3,
+      "nullable": false
+    },
+    {
+      "name": "inventariodataini",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "inventariodatafim",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "inventariohoraini",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "inventariohorafim",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "inventarioestoqueini",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "inventarioestoquefim",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "inventarioestoquedif",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "inventarioflag",
+      "type": "tinyint",
+      "length": 1,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "raio",
+      "type": "decimal",
+      "length": 9,
+      "precision": 7,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "diametro",
+      "type": "decimal",
+      "length": 9,
+      "precision": 7,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "codigoex",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codigoitem",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "quantidafefutura",
+      "type": "decimal",
+      "length": 15,
+      "precision": 13,
+      "scale": 4,
+      "nullable": false
+    },
+    {
+      "name": "datachegada",
+      "type": "integer",
+      "length": 4,
+      "precision": 10,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "observacoes_prod_futu",
+      "type": "char",
+      "length": 50,
+      "precision": 50,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "valoradicional",
+      "type": "decimal",
+      "length": 9,
+      "precision": 7,
+      "scale": 2,
+      "nullable": false
+    },
+    {
+      "name": "codigogrupofases",
+      "type": "decimal",
+      "length": 5,
+      "precision": 3,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "codmigracao",
+      "type": "char",
+      "length": 255,
+      "precision": 255,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "observacoes",
+      "type": "longvarchar",
+      "length": 1000,
+      "precision": 1000,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "alerta",
+      "type": "longvarchar",
+      "length": 1000,
+      "precision": 1000,
+      "scale": 0,
+      "nullable": false
+    },
+    {
+      "name": "descricao3",
+      "type": "longvarchar",
+      "length": 2048,
+      "precision": 2048,
+      "scale": 0,
+      "nullable": false
+    }
+  ]
+}
