@@ -53,7 +53,5 @@ data['columns'].each_with_index do |column, index|
 
 end
 
-
-
 @script = "CREATE TABLE #{@table_name} ( #{@columns} )"
 p @script
