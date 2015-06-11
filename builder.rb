@@ -67,10 +67,11 @@ out_file.close
 
 
 # Connect to database and script excecute
+# Test if database and table exsists
 begin
   conn = PGconn.open(:dbname => 'db_from_script')
 rescue
-  "Connected refused to database"
+  p "Connected refused to database"
 else
   p "Connected successful to database"
   begin
@@ -79,7 +80,7 @@ else
     conn.exec(@script)
     p "Script success"
   else
-    p "[ERROR] #{@table_name} already exists"
+    p "#{@table_name} already exists"
   end
 end
 
