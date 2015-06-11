@@ -8,6 +8,7 @@ data = JSON.parse(file)
 @columns=''
 @script
 
+# Assert type between Clarion and PostgreSql
 def assert_type(type, length, precision, scale)
   if type == 'longvarchar'
     return "character varying(#{length})"
@@ -35,6 +36,7 @@ def assert_type(type, length, precision, scale)
 
 end
 
+# iteration to form columns
 data['columns'].each_with_index do |column, index|
 
   name      = column['name']
@@ -55,12 +57,16 @@ data['columns'].each_with_index do |column, index|
 
 end
 
+# Script content
 @script = "CREATE TABLE #{@table_name} ( #{@columns} )"
 
+# Create .sql file
 out_file = File.new("create.sql", "w")
 out_file.puts(@script)
 out_file.close
 
+
+# Connect to database and script excecute
 begin
   conn = PGconn.open(:dbname => 'db_from_script')
 rescue
