@@ -1,9 +1,11 @@
 require 'json'
+require 'pg'
+
 file = File.read('produto.json')
 data = JSON.parse(file)
 
 @table_name = data['name']
-@columns = ''
+@columns=''
 @script
 
 def assert_type(type, length, precision, scale)
@@ -54,4 +56,24 @@ data['columns'].each_with_index do |column, index|
 end
 
 @script = "CREATE TABLE #{@table_name} ( #{@columns} )"
-p @script
+
+out_file = File.new("create.sql", "w")
+out_file.puts(@script)
+out_file.close
+
+begin
+  conn = PGconn.open(:dbname => 'db_from_script')
+rescue
+  "Connected refused to database"
+else
+  p "Connected successful to database"
+  begin
+    conn.exec("SELECT 1 FROM #{@table_name}").getvalue(0,0)
+  rescue
+    conn.exec(@script)
+    p "Script success"
+  else
+    p "[ERROR] #{@table_name} already exists"
+  end
+end
+

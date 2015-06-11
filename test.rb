@@ -1,6 +1,8 @@
-def assert_type
-  return "banana"
-end
+# def assert_type
+#   return "banana"
+# end
 
-variavel = assert_type
-p variavel
+# variavel = assert_type
+# p variavel
+
+

@@ -1,6 +1,10 @@
 source 'http://rubygems.org'
 
+#Ruby version
 ruby "2.0.0"
+
+#pg is the Ruby interface to the postgres
+gem 'pg', '~> 0.18.2'
 
 # # Use Sinatra
 # gem 'sinatra', '~> 1.4.6'
